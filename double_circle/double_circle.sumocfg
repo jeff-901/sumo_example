@@ -1,0 +1,11 @@
+<configuration>
+   <input>
+       <net-file value="double_circle.net.xml"/>
+       <route-files value="double_circle.rou.xml"/>
+       <additional-files value="double_circle.add.xml"/>
+   </input>
+   <processing>
+    <lateral-resolution value="1." />
+   </processing>
+</configuration>
+

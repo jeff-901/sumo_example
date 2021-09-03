@@ -1,0 +1,12 @@
+<configuration>
+   <input>
+       <net-file value="control.net.xml"/>
+       <route-files value="control.rou.xml"/>
+   </input>
+   <processing>
+    <lateral-resolution value="1." />
+    <collision.stoptime value="200"/>
+    <collision.action value="warn"/>
+    <collision.mingap-factor value="0"/>
+   </processing>
+</configuration>
