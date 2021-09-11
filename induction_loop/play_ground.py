@@ -16,8 +16,8 @@ step = 0
 maxspeed = 10
 while step < 1000:
     traci.simulationStep()
-    if traci.inductionloop.getLastStepVehicleNumber("induction0") > 0:
-       traci.trafficlight.setRedYellowGreenState("gneJ9", "GrGr")
+    if traci.inductionloop.getLastStepVehicleNumber("e0") > 0:
+       traci.trafficlight.setRedYellowGreenState("gneJ9", "GrGrGrGrGrGrGG")
     step += 1
     # print("step", step)
     # speed = traci.vehicle.getSpeed(vehID)
