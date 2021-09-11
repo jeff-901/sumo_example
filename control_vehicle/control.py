@@ -22,5 +22,4 @@ while step < 1000:
         # traci.vehicle.setSpeed(vehID, speed)
         traci.vehicle.changeLane(vehID, 1, 1.0)
         # traci.vehicle.changeSublane(vehID, 1)
-
 traci.close()
