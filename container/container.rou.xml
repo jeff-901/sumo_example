@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-09-12 14:58:14 by Eclipse SUMO netedit Version 1.10.0
+<!-- generated on 2021-09-12 15:06:00 by Eclipse SUMO netedit Version 1.10.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -8,7 +8,7 @@
     </input>
 
     <output>
-        <output-file value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.net.xml"/>
+        <output-file value="D:\zenoh\sumo\sumo_example\subscriptions\subscriptions.net.xml"/>
     </output>
 
     <processing>
@@ -31,6 +31,7 @@
 
     <netedit>
         <additional-files value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.add.xml"/>
+        <route-files value="D:\zenoh\sumo\sumo_example\subscriptions\subscriptions.rou.xml"/>
     </netedit>
 
     <report>
@@ -40,7 +41,8 @@
 </configuration>
 -->
 
-<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <e1Detector id="e0" lane="gneE5_0" pos="85.54" freq="300.00" file="e1Detector_gneE5_0_0.xml"/>
-    <instantInductionLoop id="induction0" lane="gneE5_0" pos="91.15" file="instantInductionLoop_gneE5_0_0.xml"/>
-</additional>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="-gneE7 gneE10 gneE11 -gneE6 -gneE12" color="yellow" id="route_0"/>
+    <vehicle id="vehicle_0" depart="0.00" color="6,0,255" route="route_0"/>
+    <flow id="flow_0" begin="0.00" from="-gneE10" to="gneE8" via="gneE5 gneE9" end="3600.00" number="1800"/>
+</routes>

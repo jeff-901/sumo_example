@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-09-12 15:01:29 by Eclipse SUMO netedit Version 1.10.0
+<!-- generated on 2021-09-12 15:35:03 by Eclipse SUMO netedit Version 1.10.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.net.xml"/>
+        <sumo-net-file value="D:\zenoh\sumo\sumo_example\container\container.net.xml"/>
     </input>
 
     <output>
-        <output-file value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.net.xml"/>
+        <output-file value="D:\zenoh\sumo\sumo_example\container\container.net.xml"/>
     </output>
 
     <processing>
@@ -28,11 +28,6 @@
     <pedestrian>
         <walkingareas value="false"/>
     </pedestrian>
-
-    <netedit>
-        <additional-files value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.add.xml"/>
-        <route-files value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.rou.xml"/>
-    </netedit>
 
     <report>
         <aggregate-warnings value="5"/>

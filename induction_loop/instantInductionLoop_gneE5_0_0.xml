@@ -1,20 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-09-11 23:26:53 by Eclipse SUMO GUI Version 1.10.0
+<!-- generated on 2021-09-12 15:03:04 by Eclipse SUMO GUI Version 1.10.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="D:\zenoh\sumo\playground.net.xml"/>
-        <route-files value="D:\zenoh\sumo\play_ground.rou.xml"/>
-        <additional-files value="D:\zenoh\sumo\play_ground.add.xml"/>
+        <net-file value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.net.xml"/>
+        <route-files value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.rou.xml"/>
+        <additional-files value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.add.xml"/>
     </input>
 
     <traci_server>
-        <remote-port value="61224"/>
+        <remote-port value="56481"/>
     </traci_server>
 
 </configuration>
 -->
 
 <instantE1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/instant_e1_file.xsd">
+    <instantOut id="induction0" time="27.72" state="enter" vehID="flow_0.0" speed="3.28" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="28.00" state="stay" vehID="flow_0.0" speed="3.28" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="29.00" state="stay" vehID="flow_0.0" speed="0.79" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="30.00" state="stay" vehID="flow_0.0" speed="0.35" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="31.00" state="stay" vehID="flow_0.0" speed="0.02" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="32.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="33.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="34.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="35.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="36.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="37.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="38.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="39.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="40.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="41.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="42.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="43.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="44.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="45.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="46.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="47.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="48.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="49.00" state="stay" vehID="flow_0.0" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="50.00" state="stay" vehID="flow_0.0" speed="1.92" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="50.25" state="leave" vehID="flow_0.0" speed="4.06" length="5.00" type="DEFAULT_VEHTYPE" occupancy="22.53"/>
+    <instantOut id="induction0" time="52.34" state="enter" vehID="flow_0.1" speed="4.37" length="5.00" type="DEFAULT_VEHTYPE" gap="2.09"/>
+    <instantOut id="induction0" time="53.00" state="stay" vehID="flow_0.1" speed="4.37" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="53.32" state="leave" vehID="flow_0.1" speed="6.59" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.98"/>
+    <instantOut id="induction0" time="54.75" state="enter" vehID="flow_0.2" speed="6.60" length="5.00" type="DEFAULT_VEHTYPE" gap="1.43"/>
+    <instantOut id="induction0" time="55.00" state="stay" vehID="flow_0.2" speed="6.60" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="55.52" state="leave" vehID="flow_0.2" speed="6.32" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.78"/>
+    <instantOut id="induction0" time="57.13" state="enter" vehID="flow_0.11" speed="6.96" length="5.00" type="DEFAULT_VEHTYPE" gap="1.61"/>
+    <instantOut id="induction0" time="57.85" state="leave" vehID="flow_0.11" speed="6.96" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.72"/>
+    <instantOut id="induction0" time="59.28" state="enter" vehID="flow_0.3" speed="6.87" length="5.00" type="DEFAULT_VEHTYPE" gap="1.43"/>
+    <instantOut id="induction0" time="60.00" state="stay" vehID="flow_0.3" speed="6.87" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="60.01" state="leave" vehID="flow_0.3" speed="7.55" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.73"/>
+    <instantOut id="induction0" time="61.69" state="enter" vehID="flow_0.12" speed="7.88" length="5.00" type="DEFAULT_VEHTYPE" gap="1.68"/>
+    <instantOut id="induction0" time="62.00" state="stay" vehID="flow_0.12" speed="7.88" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="62.33" state="leave" vehID="flow_0.12" speed="7.57" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.65"/>
+    <instantOut id="induction0" time="64.44" state="enter" vehID="flow_0.13" speed="7.43" length="5.00" type="DEFAULT_VEHTYPE" gap="2.11"/>
+    <instantOut id="induction0" time="65.00" state="stay" vehID="flow_0.13" speed="7.43" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="65.12" state="leave" vehID="flow_0.13" speed="6.87" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.68"/>
+    <instantOut id="induction0" time="66.59" state="enter" vehID="flow_0.4" speed="7.30" length="5.00" type="DEFAULT_VEHTYPE" gap="1.47"/>
+    <instantOut id="induction0" time="67.00" state="stay" vehID="flow_0.4" speed="7.30" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="67.31" state="leave" vehID="flow_0.4" speed="6.58" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.72"/>
+    <instantOut id="induction0" time="69.05" state="enter" vehID="flow_0.14" speed="6.83" length="5.00" type="DEFAULT_VEHTYPE" gap="1.75"/>
+    <instantOut id="induction0" time="69.79" state="leave" vehID="flow_0.14" speed="6.83" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.73"/>
+    <instantOut id="induction0" time="71.42" state="enter" vehID="flow_0.5" speed="6.84" length="5.00" type="DEFAULT_VEHTYPE" gap="1.63"/>
+    <instantOut id="induction0" time="72.00" state="stay" vehID="flow_0.5" speed="6.84" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="72.12" state="leave" vehID="flow_0.5" speed="8.19" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.71"/>
+    <instantOut id="induction0" time="73.67" state="enter" vehID="flow_0.15" speed="6.52" length="5.00" type="DEFAULT_VEHTYPE" gap="1.54"/>
+    <instantOut id="induction0" time="74.00" state="stay" vehID="flow_0.15" speed="6.52" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="74.41" state="leave" vehID="flow_0.15" speed="6.92" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.74"/>
+    <instantOut id="induction0" time="75.87" state="enter" vehID="flow_0.16" speed="6.95" length="5.00" type="DEFAULT_VEHTYPE" gap="1.47"/>
+    <instantOut id="induction0" time="76.00" state="stay" vehID="flow_0.16" speed="6.95" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="76.66" state="leave" vehID="flow_0.16" speed="6.22" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.79"/>
+    <instantOut id="induction0" time="78.34" state="enter" vehID="flow_0.6" speed="5.96" length="5.00" type="DEFAULT_VEHTYPE" gap="1.68"/>
+    <instantOut id="induction0" time="79.00" state="stay" vehID="flow_0.6" speed="5.96" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="79.18" state="leave" vehID="flow_0.6" speed="6.06" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.84"/>
+    <instantOut id="induction0" time="80.86" state="enter" vehID="flow_0.7" speed="5.55" length="5.00" type="DEFAULT_VEHTYPE" gap="1.68"/>
+    <instantOut id="induction0" time="81.00" state="stay" vehID="flow_0.7" speed="5.55" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="81.70" state="leave" vehID="flow_0.7" speed="6.09" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.83"/>
+    <instantOut id="induction0" time="83.22" state="enter" vehID="flow_0.18" speed="7.86" length="5.00" type="DEFAULT_VEHTYPE" gap="1.52"/>
+    <instantOut id="induction0" time="83.86" state="leave" vehID="flow_0.18" speed="7.86" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.64"/>
+    <instantOut id="induction0" time="85.45" state="enter" vehID="flow_0.19" speed="5.26" length="5.00" type="DEFAULT_VEHTYPE" gap="1.60"/>
+    <instantOut id="induction0" time="86.00" state="stay" vehID="flow_0.19" speed="5.26" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="86.32" state="leave" vehID="flow_0.19" speed="6.76" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.86"/>
+    <instantOut id="induction0" time="88.21" state="enter" vehID="flow_0.8" speed="2.00" length="5.00" type="DEFAULT_VEHTYPE" gap="1.89"/>
+    <instantOut id="induction0" time="89.00" state="stay" vehID="flow_0.8" speed="2.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="90.00" state="stay" vehID="flow_0.8" speed="0.35" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="91.00" state="stay" vehID="flow_0.8" speed="0.07" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="92.00" state="stay" vehID="flow_0.8" speed="0.04" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="93.00" state="stay" vehID="flow_0.8" speed="0.02" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="94.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="95.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="96.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="97.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="98.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="99.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="100.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="101.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="102.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="103.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="104.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="105.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="106.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="107.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="108.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="109.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="110.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="111.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="112.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="113.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="114.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="115.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="116.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="117.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="118.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="119.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="120.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="121.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="122.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="123.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="124.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="125.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="126.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="127.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="128.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="129.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="130.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="131.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="132.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="133.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="134.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="135.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="136.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="137.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="138.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="139.00" state="stay" vehID="flow_0.8" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="140.00" state="stay" vehID="flow_0.8" speed="2.57" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="140.07" state="leave" vehID="flow_0.8" speed="5.15" length="5.00" type="DEFAULT_VEHTYPE" occupancy="51.86"/>
+    <instantOut id="induction0" time="141.73" state="enter" vehID="flow_0.9" speed="4.45" length="5.00" type="DEFAULT_VEHTYPE" gap="1.66"/>
+    <instantOut id="induction0" time="142.00" state="stay" vehID="flow_0.9" speed="4.45" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="142.54" state="leave" vehID="flow_0.9" speed="7.03" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.81"/>
+    <instantOut id="induction0" time="146.72" state="enter" vehID="flow_0.20" speed="3.58" length="5.00" type="DEFAULT_VEHTYPE" gap="4.18"/>
+    <instantOut id="induction0" time="147.00" state="stay" vehID="flow_0.20" speed="3.58" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="147.77" state="leave" vehID="flow_0.20" speed="5.20" length="5.00" type="DEFAULT_VEHTYPE" occupancy="1.05"/>
+    <instantOut id="induction0" time="149.13" state="enter" vehID="flow_0.26" speed="6.36" length="5.00" type="DEFAULT_VEHTYPE" gap="1.36"/>
+    <instantOut id="induction0" time="149.92" state="leave" vehID="flow_0.26" speed="6.36" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.79"/>
+    <instantOut id="induction0" time="152.32" state="enter" vehID="flow_0.10" speed="5.57" length="5.00" type="DEFAULT_VEHTYPE" gap="2.40"/>
+    <instantOut id="induction0" time="153.00" state="stay" vehID="flow_0.10" speed="5.57" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="153.16" state="leave" vehID="flow_0.10" speed="7.85" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.83"/>
+    <instantOut id="induction0" time="154.54" state="enter" vehID="flow_0.21" speed="7.26" length="5.00" type="DEFAULT_VEHTYPE" gap="1.39"/>
+    <instantOut id="induction0" time="155.00" state="stay" vehID="flow_0.21" speed="7.26" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="155.24" state="leave" vehID="flow_0.21" speed="6.92" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.70"/>
+    <instantOut id="induction0" time="157.08" state="enter" vehID="flow_0.27" speed="8.20" length="5.00" type="DEFAULT_VEHTYPE" gap="1.84"/>
+    <instantOut id="induction0" time="157.69" state="leave" vehID="flow_0.27" speed="8.20" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.61"/>
+    <instantOut id="induction0" time="159.82" state="enter" vehID="flow_0.31" speed="8.70" length="5.00" type="DEFAULT_VEHTYPE" gap="2.13"/>
+    <instantOut id="induction0" time="160.00" state="stay" vehID="flow_0.31" speed="8.70" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="160.43" state="leave" vehID="flow_0.31" speed="7.99" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.61"/>
+    <instantOut id="induction0" time="162.66" state="enter" vehID="flow_0.17" speed="8.44" length="5.00" type="DEFAULT_VEHTYPE" gap="2.23"/>
+    <instantOut id="induction0" time="163.00" state="stay" vehID="flow_0.17" speed="8.44" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="163.32" state="leave" vehID="flow_0.17" speed="6.73" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.66"/>
+    <instantOut id="induction0" time="164.92" state="enter" vehID="flow_0.23" speed="7.05" length="5.00" type="DEFAULT_VEHTYPE" gap="1.60"/>
+    <instantOut id="induction0" time="165.00" state="stay" vehID="flow_0.23" speed="7.05" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="165.81" state="leave" vehID="flow_0.23" speed="5.51" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.89"/>
+    <instantOut id="induction0" time="167.70" state="enter" vehID="flow_0.38" speed="7.02" length="5.00" type="DEFAULT_VEHTYPE" gap="1.89"/>
+    <instantOut id="induction0" time="168.00" state="stay" vehID="flow_0.38" speed="7.02" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="168.47" state="leave" vehID="flow_0.38" speed="6.07" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.78"/>
+    <instantOut id="induction0" time="169.98" state="enter" vehID="flow_0.22" speed="6.36" length="5.00" type="DEFAULT_VEHTYPE" gap="1.51"/>
+    <instantOut id="induction0" time="170.00" state="stay" vehID="flow_0.22" speed="6.36" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="170.75" state="leave" vehID="flow_0.22" speed="6.51" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.77"/>
+    <instantOut id="induction0" time="172.25" state="enter" vehID="flow_0.32" speed="5.69" length="5.00" type="DEFAULT_VEHTYPE" gap="1.50"/>
+    <instantOut id="induction0" time="173.00" state="stay" vehID="flow_0.32" speed="5.69" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="173.11" state="leave" vehID="flow_0.32" speed="7.10" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.85"/>
+    <instantOut id="induction0" time="174.64" state="enter" vehID="flow_0.24" speed="7.10" length="5.00" type="DEFAULT_VEHTYPE" gap="1.54"/>
+    <instantOut id="induction0" time="175.00" state="stay" vehID="flow_0.24" speed="7.10" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="175.36" state="leave" vehID="flow_0.24" speed="6.82" length="5.00" type="DEFAULT_VEHTYPE" occupancy="0.72"/>
+    <instantOut id="induction0" time="176.97" state="enter" vehID="flow_0.30" speed="5.77" length="5.00" type="DEFAULT_VEHTYPE" gap="1.61"/>
+    <instantOut id="induction0" time="177.00" state="stay" vehID="flow_0.30" speed="5.77" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="178.00" state="stay" vehID="flow_0.30" speed="1.27" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="179.00" state="stay" vehID="flow_0.30" speed="0.47" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="180.00" state="stay" vehID="flow_0.30" speed="0.14" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="181.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="182.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="183.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="184.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="185.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="186.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="187.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="188.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="189.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="190.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="191.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="192.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="193.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="194.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="195.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="196.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="197.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
+    <instantOut id="induction0" time="198.00" state="stay" vehID="flow_0.30" speed="0.00" length="5.00" type="DEFAULT_VEHTYPE"/>
 </instantE1>

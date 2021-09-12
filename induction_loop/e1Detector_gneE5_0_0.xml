@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-09-11 23:26:53 by Eclipse SUMO GUI Version 1.10.0
+<!-- generated on 2021-09-12 15:03:04 by Eclipse SUMO GUI Version 1.10.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="D:\zenoh\sumo\playground.net.xml"/>
-        <route-files value="D:\zenoh\sumo\play_ground.rou.xml"/>
-        <additional-files value="D:\zenoh\sumo\play_ground.add.xml"/>
+        <net-file value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.net.xml"/>
+        <route-files value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.rou.xml"/>
+        <additional-files value="D:\zenoh\sumo\sumo_example\induction_loop\play_ground.add.xml"/>
     </input>
 
     <traci_server>
-        <remote-port value="61224"/>
+        <remote-port value="56481"/>
     </traci_server>
 
 </configuration>
 -->
 
 <detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
-    <interval begin="0.00" end="24.00" id="e0" nVehContrib="0" flow="0.00" occupancy="0.93" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="1"/>
+    <interval begin="0.00" end="199.00" id="e0" nVehContrib="31" flow="560.80" occupancy="56.52" speed="6.04" harmonicMeanSpeed="1.63" length="5.00" nVehEntered="32"/>
 </detector>
