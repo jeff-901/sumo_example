@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-09-12 17:44:02 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="/home/jeff/ubuntu2/sumo_example/car_collision/car_collision.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <additional-files value="/home/jeff/ubuntu2/sumo_example/car_collision/car_collision.add.xml"/>
+        <route-files value="/home/jeff/ubuntu2/sumo_example/car_collision/car_collision.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <rerouter id="rerouter_0" edges="gneE8" pos="-15.00,88.64">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE0" probability="0.50"/>
+            <destProbReroute id="gneE4" probability="0.50"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_1" edges="-gneE4" pos="70.00,96.15">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE0" probability="0.50"/>
+            <destProbReroute id="-gneE8" probability="0.50"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_2" edges="-gneE0" pos="29.71,50.41">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="gneE4" probability="0.50"/>
+            <destProbReroute id="-gneE8" probability="0.50"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_3" edges="gneE4" pos="42.84,88.40">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="gneE8" probability="1.00"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_4" edges="-gneE8" pos="11.19,94.73">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE4" probability="1.00"/>
+        </interval>
+    </rerouter>
+</additional>
