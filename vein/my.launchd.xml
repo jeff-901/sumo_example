@@ -1,0 +1,6 @@
+<launch>
+    <copy file="my.net.xml" />
+    <copy file="my.rou.xml" />
+    <copy file="rerouter.add.xml" />
+    <copy file="my.sumo.cfg" type="config" />
+</launch>

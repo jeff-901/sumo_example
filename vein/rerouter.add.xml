@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-09-14 15:55:26 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/jeff/ubuntu2/sumo_example/my_city/my.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/jeff/ubuntu2/sumo_example/my_city/my.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/jeff/ubuntu2/sumo_example/my_city/rerouter.add.xml"/>
+        <route-files value="/home/jeff/ubuntu2/sumo_example/my_city/my.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <rerouter id="rerouter_0" edges="-gneE0.95" pos="6.48,118.08">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="gneE1.579" probability="0.30"/>
+            <destProbReroute id="-gneE1.530" probability="0.30"/>
+            <destProbReroute id="gneE37" probability="0.40"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_1" edges="gneE37" pos="-6.31,5.00">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE0.95" probability="0.80"/>
+            <destProbReroute id="gneE3" probability="0.01"/>
+            <destProbReroute id="-gneE1.530" probability="0.10"/>
+            <destProbReroute id="gneE1.579" probability="0.09"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_2" edges="gneE3" pos="20.83,72.41">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE0.95" probability="1.00"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_3" edges="gneE1.579" pos="86.24,57.04">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="gneE35" probability="0.50"/>
+            <destProbReroute id="-gneE36" probability="0.50"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_4" edges="-gneE1.530" pos="-92.31,65.31">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE31" probability="0.50"/>
+            <destProbReroute id="-gneE33" probability="0.50"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_5" edges="-gneE33" pos="103.52,-3.25">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE36" probability="0.20"/>
+            <destProbReroute id="-gneE0.95" probability="0.60"/>
+            <destProbReroute id="-gneE1.530" probability="0.20"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_6" edges="-gneE31" pos="95.35,125.18">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE0.95" probability="0.60"/>
+            <destProbReroute id="-gneE1.530" probability="0.20"/>
+            <destProbReroute id="gneE35" probability="0.20"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_7" edges="-gneE36" pos="-116.21,100.25">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE33" probability="0.20"/>
+            <destProbReroute id="-gneE0.95" probability="0.60"/>
+            <destProbReroute id="gneE1.579" probability="0.20"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_8" edges="gneE35" pos="-101.11,8.53">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="-gneE0.95" probability="0.60"/>
+            <destProbReroute id="gneE1.579" probability="0.20"/>
+            <destProbReroute id="-gneE31" probability="0.20"/>
+        </interval>
+    </rerouter>
+</additional>
